@@ -1,0 +1,28 @@
+
+.link{
+    text-decoration: none;
+    
+}
+
+.product-container {
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 270px;
+  text-align: center;
+  text-decoration: none; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(247, 133, 72);
+  color: white;
+  /* Remove underline from links */
+  /* color: #333; */
+}
+.product-container:hover {
+   background-color: rgb(251, 162, 98);
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
